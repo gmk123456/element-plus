@@ -1,7 +1,6 @@
 <template>
   <div class="demo-progress">
     <el-progress type="dashboard" :percentage="percentage" :color="colors" />
-    <el-progress type="dashboard" :percentage="percentage2" :color="colors" />
     <div>
       <el-button-group>
         <el-button :icon="Minus" @click="decrease" />
